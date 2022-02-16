@@ -1,0 +1,74 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(115, 63, 122);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    top: -60px;
+    width: 300px;
+    transform: translateX(-50%);
+    background-color: #8d2c70;
+    color: rgb(253, 252, 252);
+    font-weight: 100;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+input,
+select {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #272c31;
+    padding: 10px;
+}
+
+input:focus,
+select:focus {
+    border: 1px solid #694983;
+    outline: none;
+}
+
+select {
+    width: 88% !important;
+}
+
+button {
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.tip {
+    text-align: center;
+    font-size: 18px;
+    display: none;
+}
+
+img.hello {
+    height: auto;
+    width: 1600px;
+}
